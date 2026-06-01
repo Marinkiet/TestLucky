@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucky Electrical Works PTY - Professional electrical installations, repairs, and maintenance for homes and businesses across Johannesburg.">
+    <title>⚡ Lucky Electrical Works PTY - Johannesburg's Trusted Electricians</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="electric-bolt">⚡</div>
+            <div class="loading-text">LUCKY ELECTRICAL WORKS</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">⚡ LUCKY ELECTRICAL WORKS PTY</div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#areas">Service Areas</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Don't Risk Faulty Electrical Work — Trust Johannesburg's Reliable Electrical Experts ⚡</h1>
+            <h2 class="hero-subtitle">Precision Electrical Solutions You Can Trust</h2>
+            <p class="hero-description">Professional electrical installations, repairs, and maintenance for homes and businesses across Johannesburg and surrounding areas.</p>
+            <p class="hero-tagline">Safe. Reliable. Professional.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+                <a href="tel:+27634872375" class="btn btn-secondary">Call Now</a>
+            </div>
+            <div class="hero-contact">
+                <p><i class="fas fa-phone"></i> <span class="masked-contact" data-contact="phone">Click to Reveal Phone</span></p>
+                <p><i class="fas fa-envelope"></i> <span class="masked-contact" data-contact="email">Click to Reveal Email</span></p>
+            </div>
+            
+            <!-- Floating Particles -->
+            <div class="particles" id="particles"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Trusted Electrical Experts</h2>
+            <div class="about-content">
+                <p>At <strong>Lucky Electrical Works PTY</strong>, we provide high-quality electrical services backed by experience, professionalism, and attention to detail. Whether you need a complete electrical installation, urgent fault repairs, or smart home entertainment setup, we deliver workmanship you can rely on.</p>
+                <p class="mission">Our mission is simple: provide safe, compliant, and lasting electrical solutions that give our customers complete peace of mind.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+                    <i class="fas fa-users"></i>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-project-diagram"></i>
+                    <div class="stat-number" data-target="1200">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-clock"></i>
+                    <div class="stat-number" data-target="10">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-star"></i>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">5-Star Reviews</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="flip-left" data-aos-delay="0">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>House Wiring & Rewiring</h3>
+                    <p>Complete electrical installations for new homes, renovations, and upgrades.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Indoor & Outdoor Lighting</h3>
+                    <p>Modern lighting solutions that enhance safety, comfort, and aesthetics.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fault Finding & Repairs</h3>
+                    <p>Fast and accurate diagnosis of electrical problems with effective repairs.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Distribution Board Upgrades</h3>
+                    <p>DB board installations, upgrades, and compliance improvements.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3>Geyser Installations & Maintenance</h3>
+                    <p>Professional geyser installation, repair, and servicing.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                <div class="service-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>DStv & Smart TV Setup</h3>
+                    <p>DStv installation, TV mounting, decoder setup, and smart TV configuration.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">What Our Clients Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active" data-aos="fade-up">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Excellent service! They fixed our electrical fault quickly and professionally. Highly recommend Lucky Electrical Works!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">TM</div>
+                        <div>
+                            <div class="author-name">Thabo Mabaso</div>
+                            <div class="author-location">Sandton</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Professional, reliable, and affordable. They rewired my entire house and the work is impeccable. Thank you!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SN</div>
+                        <div>
+                            <div class="author-name">Sarah Nkosi</div>
+                            <div class="author-location">Roodepoort</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Fast response time and great workmanship. They installed our new DB board and everything works perfectly!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JV</div>
+                        <div>
+                            <div class="author-name">Johan van der Merwe</div>
+                            <div class="author-location">Randburg</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Why Choose Lucky Electrical Works?</h2>
+            <div class="features-grid">
+                <div class="feature" data-aos="zoom-in" data-aos-delay="0">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Experienced Technician</h3>
+                    <p>Professional knowledge and practical expertise.</p>
+                </div>
+                <div class="feature" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Safe & Compliant Work</h3>
+                    <p>All work performed according to electrical safety standards.</p>
+                </div>
+                <div class="feature" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-clock"></i>
+                    <h3>Reliable Service</h3>
+                    <p>On-time appointments and dependable support.</p>
+                </div>
+                <div class="feature" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-tools"></i>
+                    <h3>Quality Workmanship</h3>
+                    <p>Attention to detail on every project, large or small.</p>
+                </div>
+                <div class="feature" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Affordable Pricing</h3>
+                    <p>Competitive rates without compromising quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas Section -->
+    <section class="service-areas" id="areas">
+        <div class="container">
+            <h2 class="section-title">📍 Service Areas - Johannesburg</h2>
+            <p class="areas-intro">We proudly serve:</p>
+            <div class="areas-grid">
+                <div class="area">Johannesburg Central</div>
+                <div class="area">Soweto</div>
+                <div class="area">Roodepoort</div>
+                <div class="area">Randburg</div>
+                <div class="area">Sandton</div>
+                <div class="area">Midrand</div>
+                <div class="area">Alberton</div>
+                <div class="area">Germiston</div>
+                <div class="area">Surrounding Areas</div>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230445.0782370634!2d27.849608!3d-26.205171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg%2C%20South%20Africa!5e0!3m2!1sen!2s!4v1234567890"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Values Section -->
+    <section class="customer-values">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Value</h2>
+            <div class="values-grid">
+                <div class="value">⭐ Professional Service</div>
+                <div class="value">⭐ Fast Response Times</div>
+                <div class="value">⭐ Clean & Neat Workmanship</div>
+                <div class="value">⭐ Honest Advice</div>
+                <div class="value">⭐ Lasting Results</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Request a Quote Today</h2>
+            <p class="contact-intro">Need electrical work done safely and professionally?</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Call or WhatsApp</h3>
+                            <a href="#" class="masked-contact" data-contact="phone">Click to Reveal Phone</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="#" class="masked-contact" data-contact="email">Click to Reveal Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday – Saturday<br>07:00 AM – 18:00 PM</p>
+                            <p class="emergency">Emergency Call-Outs Available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="service" name="service" placeholder="Service Needed" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Quote Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>⚡ Lucky Electrical Works PTY</h3>
+                <p>Quality Work. Professional Service. Guaranteed Peace of Mind.</p>
+                <p>Serving Johannesburg & Surrounding Areas.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lucky Electrical Works PTY. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="#" class="whatsapp-float" id="whatsappFloat" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Service Modal -->
+    <div class="modal" id="serviceModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h2 class="modal-title">Service Details</h2>
+                <p class="modal-description">Get professional electrical services tailored to your needs.</p>
+                <ul class="modal-features">
+                    <li><i class="fas fa-check"></i> Professional Installation</li>
+                    <li><i class="fas fa-check"></i> Safety Compliance</li>
+                    <li><i class="fas fa-check"></i> Quality Guarantee</li>
+                    <li><i class="fas fa-check"></i> Competitive Pricing</li>
+                </ul>
+                <button class="btn btn-primary modal-cta">Request a Quote</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
